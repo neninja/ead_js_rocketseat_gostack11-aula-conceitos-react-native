@@ -8,13 +8,8 @@
 4. Abra o emulador do Android (Android Studio > Configure > AVD Manager > "Simbolo de play")
 5. ``react-native run-android`` no terminal
 
-```sh
-yarn
+- Também precisa do iniciar o [backend](http://github.com/nenitf/ead_js_rocketseat_gostack11-aula-conceitos-node)
 
-# com o emulador do android studio aberto
-# e o powershell como admin (win+x e powershell como admin) tbm:
-react-native run-android
-```
 
 ## Observações
 - ``react-native init <projeto>`` não permitiu que o nome do projeto fosse "conceitos-react-native"
@@ -22,3 +17,4 @@ react-native run-android
 - Pelo amor de Deus, não desligue o celular do emulador para fechá-lo. Apenas feche-o, não corra o risco de não ligá-lo nunca mais de novo sei lá pq. Procedimento testado para fechar o emulador:
     1. Clique no `x` do celular emulado
     2. Feche a janela do node que abre com o logo do React
+
