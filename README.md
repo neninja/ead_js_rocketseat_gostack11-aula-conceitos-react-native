@@ -9,7 +9,16 @@
 5. ``react-native run-android`` no terminal
 
 - Também precisa do iniciar o [backend](http://github.com/nenitf/ead_js_rocketseat_gostack11-aula-conceitos-node)
+```sh
+############ iniciar servidor
+# clonar https://github.com/nenitf/ead_js_rocketseat_gostack11-aula-conceitos-node
+# yarn dev
 
+############ aplicativo
+# iniciar emulador 
+adb reverse tcp:3333 tcp:3333
+react-native run-android
+```
 
 ## Observações
 - ``react-native init <projeto>`` não permitiu que o nome do projeto fosse "conceitos-react-native"
